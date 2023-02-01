@@ -10,7 +10,6 @@ const Success = () => {
   
   useEffect(() => {
     localStorage.clear();
-    clearAll;
     runFireworks();
   }, []);
 
